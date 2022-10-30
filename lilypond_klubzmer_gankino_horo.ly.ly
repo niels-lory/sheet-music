@@ -40,8 +40,10 @@ gis4 f8 e8 e8 d8 f8 e4 e4
 \key a \major
 \repeat volta 2 { 
 b'8 cis8 d4 d8 b8 d8 cis4 cis8 a8
-
-
+e'8 fis8 d4 d8 b8 d8 cis4 cis8 a8
+b8 cis8 d4 d8 b8 d8 cis4 cis8 a8
+b8 cis8 d4 d8 b8 d8 cis4 cis8 a8
+b8 a8 gis8 a8 b4 e8 b4 b4
 } %\break 
 %  \alternative {
 %	{}
@@ -49,17 +51,27 @@ b'8 cis8 d4 d8 b8 d8 cis4 cis8 a8
 %	}
 
 %14-18 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\repeat volta 2 { 
 
+\key c \major
+
+\repeat volta 2 { 
+a'8 b8 gis4 f8 e8 d8 e4 e8 b8
+a'8 b8 gis4 f8 e8 d8 e4 e8 b8
+a'8 b8 gis4 a8 b8 gis8 a8 b8 gis4 
 } %\break 
   \alternative {
-	{}
-	{}
+	{a8 b8 gis4 f8 e8 d8 e4 e8 b8}
+	{a'8 b8 gis4 f8 e8 d8 e4 e4}
 	}
 
 %19-22 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\repeat volta 2 { 
 
+\key d \major
+\repeat volta 2 { 
+e8 fis8 g4 g8 e8 g8 fis4 fis8 d8
+a'8 b8 g4 g8 e8 g8 fis4 fis8 d8
+e8 fis8 g4 g8 e8 g8 fis4 fis8 d8
+e8 d8 cis8 d8 e4 a8 e4 e4
 } %\break 
 %  \alternative {
 %	{}
